@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
 using FSISSystem.DAL;
 using FSISSystem.ENTITIES;
 
 namespace FSISSystem.BLL
 {
-    class TeamController
+    public class TeamController
     {
         public Team Teams_FindByID(int teamid)
         {
